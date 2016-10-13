@@ -1,0 +1,28 @@
+h1, h2, h3, h4 {
+  font-family: 'Gidugu', sans-serif;
+  text-align: center;
+}
+video {
+  display: block;
+  margin: 0 auto;
+}
+body{
+  background-color: lightblue;
+}
+#video-control{
+  margin: 0 auto;
+  font-size: 1.5rem;
+  color: white;
+  position: relative;
+  top: 1.5rem;
+  z-index: 2;
+}
+#button {
+  display: block;
+  margin:  auto;
+
+}
+#search{
+  display: block;
+  margin: 2rem auto;
+}

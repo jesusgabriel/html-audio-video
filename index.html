@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Custom Video Player</title>
+  <link href="https://fonts.googleapis.com/css?family=Gidugu" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" media="screen" title="no title">
+  <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" title="no title">
+</head>
+<body>
+<h1>Custom video Player</h1>
+<div id="video-control">
+  <i class="fa fa-pause" aria-hidden="true"></i>
+  <i class="fa fa-backward" id="backward"aria-hidden="true"></i>
+  <i class="fa fa-forward" id="forward" aria-hidden="true"></i>
+  <i class="fa fa-stop" id="stop" aria-hidden="true"></i>
+  <i class="fa fa-arrow-up" id="arrow-up" aria-hidden="true"></i>
+  <i class="fa fa-arrow-down" id="arrow-down" aria-hidden="true"></i>
+</div>
+<video controls="">
+  <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4">
+  <source src="http://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.ogg">
+</video>
+<div>
+
+  
+<input  id="search" type="text" name="name" value="">
+  <button  id="button" type="button" name="button">Load Video</button>
+</div>
+
+<script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
