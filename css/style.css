@@ -20,9 +20,14 @@ body{
 #button {
   display: block;
   margin:  auto;
+  border-radius: 3px;
+  border-color: lightgray;
+  background-color: gray;
 
 }
 #search{
   display: block;
   margin: 2rem auto;
+  width: 35rem;
+  border-radius: 2px;
 }
